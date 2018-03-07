@@ -1,0 +1,7 @@
+[user]
+	name = Michael Andersson
+	email = m-andersson@outlook.com
+[core]
+	editor = vim
+	difftool = meld
+	mergetool = meld
