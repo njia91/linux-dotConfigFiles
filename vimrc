@@ -29,3 +29,7 @@ set clipboard=unnamedplus
 let g:ycm_confirm_extra_conf = 1
 set number
 autocmd vimenter * NERDTree
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set mouse=a

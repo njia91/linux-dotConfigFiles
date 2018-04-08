@@ -3,6 +3,8 @@
 #
 
 alias vundleUpdate='vim +PluginInstall +qall'
+alias ll='ls -l'
+
 
 [[ $- != *i* ]] && return
 
