@@ -5,3 +5,7 @@
 	editor = vim
 	difftool = meld
 	mergetool = meld
+[diff]
+	tool = meld
+[merge]
+	tool = meld
