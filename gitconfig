@@ -9,3 +9,8 @@
 	tool = meld
 [merge]
 	tool = meld
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
