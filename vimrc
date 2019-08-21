@@ -23,6 +23,10 @@ filetype plugin indent on    " required
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
+" Nedtree Stuff
+nmap <F6> :NERDTreeToggle<CR>
+
+
 " Put your non-Plugin stuff after this line
 syntax on
 set clipboard=unnamedplus
