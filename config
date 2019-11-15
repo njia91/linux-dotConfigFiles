@@ -18,7 +18,7 @@ hide_edge_borders none
 exec --no-startup-id xset dpms 120
 
 # Lock and sleep screen
-exec --no-startup-id i3lock & sleep 10 && xset dpms force off
+#exec --no-startup-id i3lock & sleep 10 && xset dpms force off
 
 # change borders
 bindsym $mod+u border none
