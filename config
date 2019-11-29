@@ -17,6 +17,9 @@ hide_edge_borders none
 # Turn off screen when inactive
 exec --no-startup-id xset dpms 120
 
+# Moving workspaces between screens 
+bindsym $mod+p move workspace to output right
+
 # Lock and sleep screen
 #exec --no-startup-id i3lock & sleep 10 && xset dpms force off
 
