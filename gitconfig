@@ -1,3 +1,18 @@
 [user]
 	email = michael.andersson@omegapoint.se
 	name = Michael Andersson
+[diff]
+	tool = meld
+[core]
+	editor = vim
+	difftool = meld
+	mergetool = meld
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
