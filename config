@@ -19,7 +19,7 @@ new_float normal
 hide_edge_borders none
 
 # Turn off screen when inactive
-exec --no-startup-id xset dpms 120
+#exec --no-startup-id xset dpms 120
 
 # Moving workspaces between screens 
 bindsym $mod+p move workspace to output right
@@ -291,7 +291,7 @@ bindsym $mod+shift+x exec --no-startup-id blurlock
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
-exec --no-startup-id manjaro-hello
+#exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
@@ -382,7 +382,7 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 0
+gaps inner 11
 gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
