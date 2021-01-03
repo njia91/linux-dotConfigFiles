@@ -10,6 +10,11 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
+Plugin 'slashmili/alchemist.vim'
+Plugin 'dense-analysis/ale'
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'mhinz/vim-mix-format'
+Plugin 'zxqfl/tabnine-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
